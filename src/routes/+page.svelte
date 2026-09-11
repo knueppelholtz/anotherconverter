@@ -1,7 +1,7 @@
 <script lang="ts">
 	import gsap from 'gsap';
 	import JSZip from 'jszip';
-	import { Code, Download, Infinity, Link2, Lock, Trash2 } from '@lucide/svelte';
+	import { Code, Download, Infinity, Lock, Trash2 } from '@lucide/svelte';
 	import Dropzone from '$lib/components/converter/Dropzone.svelte';
 	import FileCard from '$lib/components/converter/FileCard.svelte';
 	import {
@@ -219,7 +219,7 @@
 		<div class="flex flex-col gap-2 rounded-xl border border-border bg-card p-5">
 			<Code class="h-5 w-5 text-muted-foreground" />
 			<h3 class="font-medium">Open source</h3>
-			<p class="text-sm text-muted-foreground">Don't trust us, check the code yourself.</p>
+			<p class="text-sm text-muted-foreground">Don't trust me, check the code yourself.</p>
 		</div>
 	</section>
 
@@ -231,8 +231,8 @@
 	>
 		<p class="text-xs text-muted-foreground">Also by me</p>
 		<div class="flex items-center gap-2">
-			<Link2 class="h-5 w-5 text-muted-foreground" />
-			<h3 class="font-medium">lienks.com</h3>
+			<img src="/lienks-round-logo-blue.svg" alt="" class="h-5 w-5" />
+			<h3 class="font-medium">Lienks.com</h3>
 		</div>
 		<p class="text-sm text-muted-foreground">Simple, privacy-friendly analytics for your website.</p>
 	</a>

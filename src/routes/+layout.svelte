@@ -19,7 +19,15 @@
 
 <div class="flex min-h-screen flex-col">
 	<header class="mx-auto flex w-full max-w-2xl items-center justify-between px-4 pt-6">
-		<span class="text-sm font-semibold tracking-tight lowercase">anotherconverter</span>
+		<a href="/" class="flex items-center gap-2">
+			<div
+				class="flex h-5 w-5 items-center justify-center rounded bg-primary text-sm leading-none font-bold text-primary-foreground"
+				aria-hidden="true"
+			>
+				a
+			</div>
+			<span class="text-sm font-semibold tracking-tight lowercase">anotherconverter</span>
+		</a>
 		<div class="flex items-center gap-1">
 			<button
 				type="button"
